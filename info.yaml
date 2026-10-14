@@ -20,7 +20,6 @@ project:
     - "hvsync_generator.v"
     - "debouncer.v"
     - "ascii_rom.v"
-    - "simpledpmem.v"
     - "top_module.v"
     - "hangman.v"
 

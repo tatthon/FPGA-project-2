@@ -354,7 +354,7 @@ module text_screen_gen(
                     already_guessed <= 1'b0;
 
                     if (selected_letter == 5'd25)
-                        selected_letter <= 5'd25;
+                        selected_letter <= 5'd0;
                     else
                         selected_letter <= selected_letter + 1'b1;
 
@@ -373,7 +373,7 @@ module text_screen_gen(
                     already_guessed <= 1'b0;
 
                     if (selected_letter == 5'd0)
-                        selected_letter <= 5'd0;
+                        selected_letter <= 5'd25;
                     else
                         selected_letter <= selected_letter - 1'b1;
 
