@@ -13,7 +13,7 @@ This project implements a Hangman game on a VGA text screen. The game logic and 
 - Guess all letters in the word to win. Losing all lives displays `GAME OVER`.
 - Press **Start** at any time to reset the round and select a new word.
 
-## `text_screen_gen` Interface
+## `hangman` Interface
 
 | Port | Direction | Width | Description |
 |---|---|---:|---|
