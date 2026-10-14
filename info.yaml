@@ -21,8 +21,8 @@ project:
     - "debouncer.v"
     - "ascii_rom.v"
     - "simpledpmem.v"
-    - "project.v"
-    - "text_screen_gen.v"
+    - "top_module.v"
+    - "hangman.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
