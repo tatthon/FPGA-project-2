@@ -2,6 +2,10 @@
 
 This project implements a Hangman game on a VGA text screen. The game logic and text rendering are in [`src/hangman.v`](src/hangman.v), in the `text_screen_gen` module. `top_module.v` connects it to the VGA timing generator and gamepad interface.
 
+## Demo
+
+[Watch the Hangman demo](https://drive.google.com/file/d/18CSP-brCegZicTktBaahMdELHnCGKDV9/view?usp=sharing)
+
 ## How to Play
 
 - Press **Start** to begin a new game. The game selects one of three words: `APPLE`, `HOUSE`, or `TIGER`.
